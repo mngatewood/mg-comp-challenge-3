@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Turing Pupil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700 | Roboto+Slab:400,500,700" rel="stylesheet">
+  </head>
+  <body>
+    <aside>
+      <section class="aside" id="aside-user">
+        <img id="aside-user__photo" src=images/user.jpg alt="user avatar or portrait">
+        <h2 id="aside-user__name"><a href=#>Theo Masochist</a></h2>
+      </section>
+      <section class="aside" id="aside-main">
+        <h5>Main</h5>
+        <ul class="aside-main__ul">
+          <li class="aside-main" id="aside-main__home"><a href=#>HOME</a></li>
+          <li class="aside-main" id="aside-main__jobs"><a href=#>JOBS</a></li>
+          <li class="aside-main" id="aside-main__resumes"><a href=#>RESUMES</a></li>
+          <li class="aside-main" id="aside-main__tasks"><a href=#>TASKS</a></li>
+          <li class="aside-main" id="aside-main__calendar"><a href=#>CALENDAR</a></li>
+        </ul>
+      </section>
+      <section class="aside" id="aside-admin">
+        <h5>Admin</h5>
+        <ul class="aside-admin__ul">
+          <li class="aside-admin" id="aside-main__users"><a href=#>USERS</a></li>
+          <li class="aside-admin" id="aside-main__locations"><a href=#>LOCATIONS</a></li>
+          <li class="aside-admin" id="aside-main__workflows"><a href=#>WORKFLOWS</a></li>
+          <li class="aside-admin" id="aside-main__job-boards"><a href=#>JOB BOARDS</a></li>
+          <li class="aside-admin" id="aside-main__social"><a href=#>SOCIAL</a></li>
+        </ul>
+      </section>
+      <section class="aside" id="aside-categories">
+        <h5>Categories</h5>
+        <ul class="aside-categories__ul">
+          <li class="aside-categories" id="aside-main__administrative">
+            <input type="checkbox" class="aside-categories__checkbox" id="aside-main__administrative-checkbox" name="administrative">
+            <label for="aside-main__administrative-checkbox"><a>Administrative</a>
+          </li>
+          <li class="aside-categories" id="aside-main__design">
+            <input type="checkbox" class="aside-categories__checkbox" id="aside-main__design-checkbox" name="design">
+            <label for="aside-main__design-checkbox"><a>Design</a>
+          </li>
+          <li class="aside-categories" id="aside-main__executive">
+            <input type="checkbox" class="aside-categories__checkbox" id="aside-main__executive-checkbox" name="executive">
+            <label for="aside-main__executive-checkbox"><a>Executive</a>
+          </li>
+          <li class="aside-categories" id="aside-main__human-resources">
+            <input type="checkbox" class="aside-categories__checkbox" id="aside-main__human-resources-checkbox" name="human-resources">
+            <label for="aside-main__human-resources-checkbox"><a>Human Resources</a>
+          </li>
+        </ul>
+      </section> 
+    </aside>     
+    <header>
+      <section class="header" id="header-top">
+        <button class="header-top__button" id="header-top__collapse"></button>
+        <input type="text" id="header-top__search" placeholder="Search for a job, task, or resume">
+        <button class="header-top__button" id="header-top__profile"></button>
+        <button class="header-top__button" id="header-top__notifications"></button>
+        <button class="header-top__button" id="header-top__layout"></button>
+      </section>
+      <section class="header" id="header-bottom">
+        <section id="header-bottom__job-title">
+          <h1>Turing Pupil</h1>
+          <p id="header-bottom__location">Denver, CO <span id="header-bottom__preview"><a href=#>Preview this post</a></span></p>
+        </section>
+        <section id="header-bottom__menu">
+          <div class="header-bottom__button" id="header-bottom__menu-open">
+            OPEN
+          </div>
+          <div class="header-bottom__button" id="header-bottom__menu-bookmark">
+          </div>
+          <div class="header-bottom__button" id="header-bottom__menu-edit">
+          </div>
+          <div class="header-bottom__button" id="header-bottom__menu-trash">
+          </div>
+        </section>
+        <section id="header-bottom__nav">
+          <ul>
+            <li class="header-bottom__nav-active"><a href=#>SUMMARY</a></li>
+            <li><a href=#>APPLICANTS</a></li>
+            <li><a href=#>JOB BOARD</a></li>
+            <li><a href=#>INTERVIEWS</a></li>
+            <li><a href=#>ACTIVITY</a></li>
+            <li><a href=#>BROADCAST</a></li>
+            <li><a href=#>NOTIFICATIONS</a></li>
+          </ul>
+        </section>
+      </section>
+    </header>
+    <main>
+      <section class="main" id="main-top">
+        <div class="main-top__container">
+
+
+          <section class="main-top__charts" id="main-top__charts-circles">
+            <div class="main-top__circle" id="main-top__circle-one">
+              <p class="main-top__circle-value">3,923</p>
+              <p class="main-top__circle-unit">SUCKERS</p>
+            </div>
+            <div class="main-top__circle" id="main-top__circle-two">
+              <p class="main-top__circle-value">1,308</p>
+              <p class="main-top__circle-unit">VICTIMS</p>
+            </div>
+            <div class="main-top__circle" id="main-top__circle-three">
+              <p class="main-top__circle-value">8,237</p>
+              <p class="main-top__circle-unit">TEARS</p>
+            </div>
+            <div class="main-top__charts-legend" id="main-top__charts-legend-circles">
+              TOTALS - Out of 5,231 views
+            </div>
+          </section>
+
+
+
+          <section class="main-top__charts" id="main-top__charts-bar-graph">
+            <div class="main-top__charts-bar-graph">
+              <img src="images/sadness.svg" alt="bar graph depicting sadness at Turing">
+            </div>
+            <div class="main-top__charts-legend" id="main-top__charts-legend-bar-graph">
+              SADNESS/DAY
+            </div>
+          </section>
+        </div>
+        <div class="main-top__hr">
+          <hr>
+          <img src='images/icons-grey/hr-icon.svg' alt="up arrow indicating the section above is collapsible">
+        </div>
+      </section>
+      <section class="main" id="main-bottom">
+        <section class="main-bottom" id="main-bottom__description">
+          <table class="main-bottom__description-table">
+            <tr class="main-bottom__description-table-header">
+              <th><h3 class="main-bottom__description" id="main-bottom__description-header">JOB DESCRIPTION</h3>
+              </th>
+              <th>
+                <div id="main-bottom__description-edit"><a href=#>EDIT</a>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">POSITION TITLE</h3>
+              </td>
+              <td>
+                <p>Turing Pupil</p>
+              </td>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">LOCATION</h3>
+              </td>
+              <td>
+                <p>Denver, CO</p>
+              </td>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">EMPLOYMENT TYPE</h3>
+              </td>
+              <td>
+                <p>Full-time<sup>2</sup></p>
+              </td>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">EXPERIENCE</h3>
+              </td>
+              <td>
+                <p>Negotiable.  Prefer some career-changing experience.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">STATUS</h3>
+              </td>
+              <td>
+                <p>Open
+              </td>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">DESCRIPTION</h3>
+              </td>
+              <td>
+                <p>The Turing Pupil is responsible for acquiring large amounts of coding knowledge in the shortest time possible.  The successful candidate will be able to juggle multiple priorities while absorbing three weeks of curricula in a day.  You like your weekends?  Don't apply.  Preference is given to those who enjoy sorrow.
+              </td>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">HIRING LEAD</h3>
+              </td>
+              <td>
+                <p><img src="images/louisa.jpg" alt="photograph of hiring manager"> Louisa Barrett</p>
+              </td>
+            </tr>
+            <tr>
+              <td><h3 class="main-bottom__description">APPROVED SALARY</h3>
+              </td>
+              <td>
+                <p id="main-bottom__description-salary">($20,000)</p>
+              </td>
+            </tr>
+          </table>
+        </section>
+        <section class="main-bottom" id="main-bottom__aside">
+          <div class="main-bottom__aside-social-box" id="main-bottom__aside-social-facebook">
+            <a href=#>Post to Facebook</a>
+          </div>
+          <div class="main-bottom__aside-social-box" id="main-bottom__aside-social-twitter">
+            <a href=#>Tweet this Job</a>
+          </div>
+          <div class="main-bottom__aside-social-box" id="main-bottom__aside-social-linkedin">
+            <a href=#>Post to LinkedIn</a>
+          </div>
+          <article>
+            <h4 id="main-bottom__aside-link">Link to this Job</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna.</p>
+            <div>
+              <input type=text class="main-bottom__aside-input" placeholder="http://loremipsum.dol/or/sit/">
+              <div class="main-bottom__aside-copy">
+                <a href=#>Copy</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h4 id=main-bottom__aside-widget>Use the Button Widget</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna.</p>
+              <div>
+                <input type=text class="main-bottom__aside-input" placeholder="<script type='text/javascript'>\">
+                <div class="main-bottom__aside-copy">
+                <a href=#>Copy</a>
+                </div>
+              </div>
+          </article>
+          <article>
+            <h4 id="main-bottom__aside-email">Upload Resumes by Email</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna.</p>
+              <div>
+                <input type=text class="main-bottom__aside-input" placeholder="suffer@turing.io">
+                <div class="main-bottom__aside-copy">
+                  <a href=#>Copy</a>
+                </div>
+              </div>
+
+          </article>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
