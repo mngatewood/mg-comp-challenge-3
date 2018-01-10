@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<polygon style="fill:#FFFFFF" points="321.6,504 190.4,504 203.2,444 308.8,444  " data-original="#FFFFFF" class=""/>
+	<rect x="8" y="64" style="fill:#FFFFFF" width="496" height="380" data-original="#FFFFFF" class=""/>
+</g><rect x="40" y="96" style="fill:#8F8F8F" width="432" height="278.4" data-original="#2EA2DB" class="" data-old_color="#2EA2DB"/><circle style="fill:#8F8F8F" cx="256" cy="404.8" r="13.6" data-original="#193651" class="active-path" data-old_color="#193651"/><g>
+	<rect x="85.6" y="76.8" style="fill:#FFFFFF" width="340" height="271.2" data-original="#FFFFFF" class=""/>
+	<rect x="85.6" y="8" style="fill:#FFFFFF" width="340" height="68.8" data-original="#FFFFFF" class=""/>
+</g><path style="fill:#8F8F8F" d="M512,452V56h-77.6V0H77.6v56H0v396h193.6l-9.6,44h-16v16h12h151.2H344v-16h-16l-9.6-44H512z M200,496  l9.6-44h92.8l9.6,44H200z M93.6,84.8h324V340h-324C93.6,340,93.6,84.8,93.6,84.8z M93.6,16h324v52.8h-324C93.6,68.8,93.6,16,93.6,16  z M16,72h61.6v284h356V72H496v364H16V72z" data-original="#193651" class="active-path" data-old_color="#193651"/><g>
+	<rect x="299.2" y="236.8" style="fill:#8F8F8F" width="72" height="56.8" data-original="#F16051" class="" data-old_color="#F16051"/>
+	<rect x="140.8" y="236.8" style="fill:#8F8F8F" width="121.6" height="56.8" data-original="#F16051" class="" data-old_color="#F16051"/>
+</g><g>
+	<rect x="182.4" y="396.8" style="fill:#8F8F8F" width="16" height="16" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="313.6" y="396.8" style="fill:#8F8F8F" width="16" height="16" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="140.8" y="123.2" style="fill:#8F8F8F" width="156.8" height="16" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="322.4" y="123.2" style="fill:#8F8F8F" width="48.8" height="16" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="201.6" y="180" style="fill:#8F8F8F" width="169.6" height="16" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="140.8" y="180" style="fill:#8F8F8F" width="35.2" height="16" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="267.2" y="33.6" style="fill:#8F8F8F" width="16" height="16.8" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="316.8" y="33.6" style="fill:#8F8F8F" width="16" height="16.8" data-original="#193651" class="active-path" data-old_color="#193651"/>
+	<rect x="367.2" y="33.6" style="fill:#8F8F8F" width="16" height="16.8" data-original="#193651" class="active-path" data-old_color="#193651"/>
+</g></g> </svg>
