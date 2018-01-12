@@ -61,13 +61,15 @@
     </aside> 
     <header>
       <section class="header" id="header-top">
-        <button class="header-top__button" id="header-top__collapse"></button>
+        <button class="header-top__button" id="header-top__collapse" aria-label="collapse button"></button>
+        <label for="header-top__search-long" aria-label="search input"></label>
         <input class="header-top__search" type="text" id="header-top__search-long" placeholder="Search for a job, task, or resume">
+        <label for="header-top__search-medium" aria-label="search input"></label>
         <input class="header-top__search" type="text" id="header-top__search-medium" placeholder="Search">
-        <button class="header-top__search header-top__button" id="header-top__search-button">
-        <button class="header-top__button" id="header-top__profile"></button>
-        <button class="header-top__button" id="header-top__notifications"></button>
-        <button class="header-top__button" id="header-top__layout"></button>
+        <button class="header-top__search header-top__button" id="header-top__search-button" aria-label="search button">
+        <button class="header-top__button" id="header-top__profile" aria-label="profile button"></button>
+        <button class="header-top__button" id="header-top__notifications" aria-label="notifications button"></button>
+        <button class="header-top__button" id="header-top__layout" aria-label="layout button"></button>
       </section>
       <section class="header" id="header-bottom">
         <section id="header-bottom__job-title">
@@ -77,14 +79,14 @@
           </p>
         </section>
         <section id="header-bottom__menu">
-          <div class="header-bottom__button" id="header-bottom__menu-open">
+          <div class="header-bottom__button" id="header-bottom__menu-open" aria-label="open button">
             OPEN
           </div>
-          <div class="header-bottom__button" id="header-bottom__menu-bookmark">
+          <div class="header-bottom__button" id="header-bottom__menu-bookmark" aria-label="bookmark button">
           </div>
-          <div class="header-bottom__button" id="header-bottom__menu-edit">
+          <div class="header-bottom__button" id="header-bottom__menu-edit" aria-label="edit button">
           </div>
-          <div class="header-bottom__button" id="header-bottom__menu-trash">
+          <div class="header-bottom__button" id="header-bottom__menu-trash" aria-label="trash button">
           </div>
         </section>
         <section id="header-bottom__nav">
@@ -218,7 +220,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna.</p>
             <div>
-              <input type=text class="main-bottom__aside-input" placeholder="http://loremipsum.dol/or/sit/">
+              <label for="main-bottom__aside-link-input" lass="main-bottom__aside-input-label" aria-label="link input, not editible"></label>
+              <input type=text class="main-bottom__aside-input" id="main-bottom__aside-link-input" placeholder="http://loremipsum.dol/or/sit/" disabled="true">
               <div class="main-bottom__aside-copy">
                 <a href=#>Copy</a>
               </div>
@@ -229,7 +232,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna.</p>
             <div>
-              <input type=text class="main-bottom__aside-input" placeholder="<script type='text/javascript'>\">
+              <label for="main-bottom__aside-widget-input" class="main-bottom__aside-input-label" aria-label="widget input, not editible"></label>
+              <input type=text class="main-bottom__aside-input" id="main-bottom__aside-widget-input" placeholder="<script type='text/javascript'>\">
               <div class="main-bottom__aside-copy">
               <a href=#>Copy</a>
               </div>
@@ -240,7 +244,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna.</p>
             <div>
-              <input type=text class="main-bottom__aside-input" placeholder="suffer@turing.io">
+              <label for="main-bottom__aside-email-input" lass="main-bottom__aside-input-label" aria-label="email input, not editible"></label>
+              <input type=text class="main-bottom__aside-input" id="main-bottom__aside-email-input" placeholder="suffer@turing.io" disabled="true">
               <div class="main-bottom__aside-copy">
                 <a href=#>Copy</a>
               </div>
