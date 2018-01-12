@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
-       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700 | Roboto+Slab:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700 | Roboto+Slab:400,500,700" rel="stylesheet">
   </head>
   <body>
     <aside>
@@ -54,11 +54,17 @@
           </li>
         </ul>
       </section> 
-    </aside>     
+      <div class="aside__show-hide">
+        <hr>
+        <img src='images/icons-grey/hr-icon.svg' alt="up arrow indicating the section above is collapsible">
+      </div>
+    </aside> 
     <header>
       <section class="header" id="header-top">
         <button class="header-top__button" id="header-top__collapse"></button>
-        <input type="text" id="header-top__search" placeholder="Search for a job, task, or resume">
+        <input class="header-top__search" type="text" id="header-top__search-long" placeholder="Search for a job, task, or resume">
+        <input class="header-top__search" type="text" id="header-top__search-medium" placeholder="Search">
+        <button class="header-top__search header-top__button" id="header-top__search-button">
         <button class="header-top__button" id="header-top__profile"></button>
         <button class="header-top__button" id="header-top__notifications"></button>
         <button class="header-top__button" id="header-top__layout"></button>
@@ -66,7 +72,9 @@
       <section class="header" id="header-bottom">
         <section id="header-bottom__job-title">
           <h1>Turing Pupil</h1>
-          <p id="header-bottom__location">Denver, CO <span id="header-bottom__preview"><a href=#>Preview this post</a></span></p>
+          <p id="header-bottom__location">Denver, CO <span id="header-bottom__preview">
+            <a href=#>Preview this post</a></span>
+          </p>
         </section>
         <section id="header-bottom__menu">
           <div class="header-bottom__button" id="header-bottom__menu-open">
@@ -95,8 +103,6 @@
     <main>
       <section class="main" id="main-top">
         <div class="main-top__container">
-
-
           <section class="main-top__charts" id="main-top__charts-circles">
             <div class="main-top__circle" id="main-top__circle-one">
               <p class="main-top__circle-value">3,923</p>
@@ -114,9 +120,6 @@
               TOTALS - Out of 5,231 views
             </div>
           </section>
-
-
-
           <section class="main-top__charts" id="main-top__charts-bar-graph">
             <div class="main-top__charts-bar-graph">
               <img src="images/sadness.svg" alt="bar graph depicting sadness at Turing">
@@ -126,79 +129,79 @@
             </div>
           </section>
         </div>
-        <div class="main-top__hr">
+        <div class="main-top__show-hide">
           <hr>
           <img src='images/icons-grey/hr-icon.svg' alt="up arrow indicating the section above is collapsible">
         </div>
       </section>
       <section class="main" id="main-bottom">
         <section class="main-bottom" id="main-bottom__description">
-          <table class="main-bottom__description-table">
-            <tr class="main-bottom__description-table-header">
-              <th><h3 class="main-bottom__description" id="main-bottom__description-header">JOB DESCRIPTION</h3>
-              </th>
-              <th>
-                <div id="main-bottom__description-edit"><a href=#>EDIT</a>
-                </div>
-              </th>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">POSITION TITLE</h3>
-              </td>
-              <td>
-                <p>Turing Pupil</p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">LOCATION</h3>
-              </td>
-              <td>
-                <p>Denver, CO</p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">EMPLOYMENT TYPE</h3>
-              </td>
-              <td>
-                <p>Full-time<sup>2</sup></p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">EXPERIENCE</h3>
-              </td>
-              <td>
-                <p>Negotiable.  Prefer some career-changing experience.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">STATUS</h3>
-              </td>
-              <td>
-                <p>Open
-              </td>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">DESCRIPTION</h3>
-              </td>
-              <td>
-                <p>The Turing Pupil is responsible for acquiring large amounts of coding knowledge in the shortest time possible.  The successful candidate will be able to juggle multiple priorities while absorbing three weeks of curricula in a day.  You like your weekends?  Don't apply.  Preference is given to those who enjoy sorrow.
-              </td>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">HIRING LEAD</h3>
-              </td>
-              <td>
-                <p><img src="images/louisa.jpg" alt="photograph of hiring manager"> Louisa Barrett</p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3 class="main-bottom__description">APPROVED SALARY</h3>
-              </td>
-              <td>
-                <p id="main-bottom__description-salary">($20,000)</p>
-              </td>
-            </tr>
-          </table>
+          <div class="main-bottom__description-table">
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left main-bottom__description-table-cell-top" id="main-bottom__description-table-cell-one">
+              <h6 class="main-bottom__description">JOB DESCRIPTION</h6>
+            </div>
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-top" id="main-bottom__description-table-cell-two">
+              <div id="main-bottom__description-edit">
+                <a href=#>EDIT</a>
+              </div>
+            </div>
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-three">
+              <h3 class="main-bottom__description">POSITION TITLE</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-four">
+              <p>Turing Pupil</p>
+            </div>
+
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-five">
+              <h3 class="main-bottom__description">LOCATION</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-six">
+              <p>Denver, CO</p>
+            </div>
+
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-seven">
+              <h3 class="main-bottom__description">EMPLOYMENT TYPE</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-eight">
+              <p>Full-time<sup>2</sup></p>
+            </div>
+
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-nine">
+              <h3 class="main-bottom__description">EXPERIENCE</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-ten">
+              <p>Negotiable.  Prefer some career-changing experience.</p>
+            </div>
+
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-eleven">
+              <h3 class="main-bottom__description">STATUS</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-twelve">
+              <p>Open
+            </div>
+
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-thirteen">
+              <h3 class="main-bottom__description">DESCRIPTION</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-fourteen">
+              <p>The Turing Pupil is responsible for acquiring large amounts of coding knowledge in the shortest time possible.  The successful candidate will be able to juggle multiple priorities while absorbing three weeks of curricula in a day.  You like your weekends?  Don't apply.  Preference is given to those who enjoy sorrow.</p>
+            </div>
+
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-fifteen">
+              <h3 class="main-bottom__description">HIRING LEAD</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-sixteen">
+              <p><img src="images/louisa.jpg" alt="photograph of hiring manager"> Louisa Barrett</p>
+            </div>
+
+            <div class="main-bottom__description-table-cell main-bottom__description-table-cell-left" id="main-bottom__description-table-cell-seventeen">
+              <h3 class="main-bottom__description">APPROVED SALARY</h3>
+            </div>
+            <div class="main-bottom__description-table-cell" id="main-bottom__description-table-cell-eighteen">
+              <p id="main-bottom__description-salary">($20,000)</p>
+            </div>
+
+          </div>
         </section>
         <section class="main-bottom" id="main-bottom__aside">
           <div class="main-bottom__aside-social-box" id="main-bottom__aside-social-facebook">
@@ -225,24 +228,23 @@
             <h4 id=main-bottom__aside-widget>Use the Button Widget</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna.</p>
-              <div>
-                <input type=text class="main-bottom__aside-input" placeholder="<script type='text/javascript'>\">
-                <div class="main-bottom__aside-copy">
-                <a href=#>Copy</a>
-                </div>
+            <div>
+              <input type=text class="main-bottom__aside-input" placeholder="<script type='text/javascript'>\">
+              <div class="main-bottom__aside-copy">
+              <a href=#>Copy</a>
               </div>
+            </div>
           </article>
           <article>
             <h4 id="main-bottom__aside-email">Upload Resumes by Email</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna.</p>
-              <div>
-                <input type=text class="main-bottom__aside-input" placeholder="suffer@turing.io">
-                <div class="main-bottom__aside-copy">
-                  <a href=#>Copy</a>
-                </div>
+            <div>
+              <input type=text class="main-bottom__aside-input" placeholder="suffer@turing.io">
+              <div class="main-bottom__aside-copy">
+                <a href=#>Copy</a>
               </div>
-
+            </div>
           </article>
         </section>
       </section>
