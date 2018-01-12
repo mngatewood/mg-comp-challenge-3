@@ -142,7 +142,7 @@ h5 {
   padding: 20px 20px 0 20px;
 }
 
-label {
+aside label {
   display: inline;
   padding: 0 0 0 13px;
 }
@@ -267,6 +267,10 @@ header {
 ::placeholder {
   color: #C2C2C2;
   font-size: 90%;
+}
+
+header label {
+  display: none;
 }
 
 #header-top__collapse {
@@ -416,9 +420,7 @@ h1 {
   padding: 0;
 }
 
-#header-bottom__nav li a:link,
-#header-bottom__nav li a:visited {
-  color: #8F8F8F;
+#header-bottom__nav li {
   float: left;
   font-size: 90%;
   font-weight: 700;
@@ -426,6 +428,11 @@ h1 {
   padding: 1rem 0;
   text-align: center;
   width: 12%;
+}
+
+#header-bottom__nav li a:link,
+#header-bottom__nav li a:visited {
+  color: #8F8F8F;
 }
 
 .header-bottom__nav-active a {
@@ -726,6 +733,10 @@ article {
   text-align: left;
 }
 
+.main-bottom__aside-input-label {
+  display: none;
+}
+
 .main-bottom__aside-input {
   height: 4rem;
   overflow: hidden;
@@ -967,7 +978,7 @@ article {
   }
 
   .main-top__circle {
-    margin: 3rem 3rem 1rem 3rem;
+    margin: 3rem 2rem 1rem 2rem;
   }
 
   .main-top__charts-bar-graph {
@@ -1054,10 +1065,10 @@ article {
     top: 25px;
   }
 
-  #header-bottom__nav li {
+/*  #header-bottom__nav li {
     font-size: 50%;
   }
-
+*/
 }
 
 @media screen and (max-width: 720px) {
@@ -1130,7 +1141,7 @@ article {
   }
 
   #header-bottom__job-title {
-    width: 60%;
+    width: 70%;
   }
 
   #header-bottom__menu {
