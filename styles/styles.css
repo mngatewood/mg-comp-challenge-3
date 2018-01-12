@@ -20,13 +20,13 @@ aside {
   height: 100%;
 }
 
-aside a:hover {
-  color: #FFFFFF;
-}
-
 aside a:link,
 aside a:visited {
   color: #C2C2C2;
+}
+
+aside a:hover {
+  color: #FFFFFF;
 }
 
 .aside {
@@ -551,7 +551,7 @@ main {
   padding: 0 0 20px 0;
 }
 
-#main-bottom a:link, {
+#main-bottom a:link,
 #main-bottom a:visited {
   color: #FFFFFF;
 }
@@ -630,7 +630,7 @@ h6 {
   color: #FFFFFF;
   font-size: 2rem;
   margin: 0;
-  padding: 20px 20px 20px 70px;
+  padding: 20px 20px 20px 40px;
   width: 75px;
 }
 
@@ -830,7 +830,7 @@ article {
     background-color: #7F8CA5;
     font-size: 1rem;
     margin: 0 0 0 0;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 10px 10px 40px;
     width: 35px;
   }
 
@@ -934,7 +934,7 @@ article {
     width: 100%
   }
 
-  #header-bottom__nav li, a:link,
+  #header-bottom__nav li a:link,
   #header-bottom__nav li a:visited {
     font-size: 60%;
   }
