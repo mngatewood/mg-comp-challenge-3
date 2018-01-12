@@ -182,7 +182,7 @@ label {
   color: #3A4353;
 }
 
-#aside-main__administrative-checkbox {background-color: #FF0000;}
+#aside-main__administrative-checkbox {background-color: #FFFF00;}
 #aside-main__design-checkbox {background-color: #00FFFF;}
 #aside-main__executive-checkbox {background-color: #FF0000;}
 #aside-main__human-resources-checkbox {background-color: #D2B48C;}
@@ -241,7 +241,6 @@ header {
 }
 
 .header-top__search {
-  background: url(../images/icons-grey/search.svg) 35px/30px no-repeat
   border: 1px solid #8F8F8F;
   flex: 2 2;
   font-size: 2rem;
@@ -250,10 +249,12 @@ header {
 
 #header-top__search-long {
   display: inline-block;
+  background: url(../images/icons-grey/search.svg) 30px/30px no-repeat;
 }
 
 #header-top__search-medium {
   display: none;
+  background: url(../images/icons-grey/search.svg) 30px/30px no-repeat;
   width: 100px;
 }
 
@@ -460,14 +461,16 @@ main {
   width: 10rem; height: 10rem;
 }
 
+/*Circle properties in deliberate order*/
+
 #main-top__circle-one {
-  border-right-color: #DBE4E8
   border: 1em solid #67BAC2;
+  border-right-color: #DBE4E8;
 }
 
 #main-top__circle-two {
-  border-left-color: #67BAC2;
   border: 1em solid #DBE4E8;
+  border-left-color: #67BAC2;
 }
 
 #main-top__circle-three {
@@ -544,6 +547,7 @@ main {
 
 #main-bottom {
   display: flex;
+  padding: 0 0 20px 0;
 }
 
 #main-bottom a:visited {
@@ -619,8 +623,8 @@ h6 {
 }
 
 #main-bottom__description-edit {
-  background-color: #7F8CA5;
   background: url(../images/icons-white/edit.svg) 25px/25px no-repeat;
+  background-color: #7F8CA5;
   color: #FFFFFF;
   font-size: 2rem;
   margin: 0;
@@ -757,19 +761,21 @@ article {
     font-size: 1rem;
   }
 
+/*Circle properties in deliberate order*/
+
   .main-top__circle {
     margin: 30px 4% 2rem 1%;
     width: 6rem; height: 6rem;
   }
 
   #main-top__circle-one {
-    border-right-color: #DBE4E8
     border: 0.5rem solid #67BAC2;
+    border-right-color: #DBE4E8
   }
 
   #main-top__circle-two {
-    border-left-color: #67BAC2;
     border: 0.5rem solid #DBE4E8;
+    border-left-color: #67BAC2;
   }
 
   #main-top__circle-three {
@@ -818,8 +824,8 @@ article {
   }
 
   #main-bottom__description-edit {
-    background-color: #7F8CA5;
     background: url(../images/icons-white/edit.svg) 15px/15px no-repeat;
+    background-color: #7F8CA5;
     font-size: 1rem;
     margin: 0 0 0 0;
     padding: 10px 10px 10px 30px;
